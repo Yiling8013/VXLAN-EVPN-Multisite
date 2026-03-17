@@ -2,8 +2,11 @@
 
 ## Overview
 
-This project demonstrates a VXLAN EVPN-based spine-leaf data center architecture.  
-The lab focuses on implementing an EVPN control plane with VXLAN overlay to provide scalable Layer 2 and Layer 3 connectivity across the fabric.
+This lab project aims to design and implement a scalable and secure data center network based on VXLAN EVPN technology. First, a VXLAN EVPN fabric is deployed in Data Center 1 to enable inter-VLAN communication, allowing hosts in different VLANs to communicate seamlessly through integrated Layer 2 and Layer 3 forwarding.
+
+Second, service insertion is implemented within DC1 to integrate a firewall into the network, providing centralized security control for intra-data-center traffic. Third, a centralized route leaking mechanism is introduced to enable shared access to Internet resources within DC1, allowing different segments to utilize common external connectivity while maintaining logical separation.
+
+Finally, an EVPN Multi-Site architecture is used to interconnect multiple data centers, enabling cross-site tenant communication. This allows hosts belonging to the same tenant but located in different data centers to communicate transparently, achieving seamless network extension across sites.
 
 This repository includes topology diagrams, device configurations, and validation commands used to build and test the environment.
 
