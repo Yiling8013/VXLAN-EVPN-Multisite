@@ -11,7 +11,7 @@ This repository includes topology diagrams, device configurations, and validatio
 
 ## Topology
 
-![Topology](topology/topology.png)
+![Topology](Topology/VXLAN_EVPN_Multisite_LAB.png)
 
 ### Network Design
 
